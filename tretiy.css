@@ -1,0 +1,36 @@
+header {
+  background-image: url("./breeds/tretiy.webp");
+  background-repeat: no-repeat;
+  height: 450px;
+  background-size: cover;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  color: #21243d;
+  font-family: "PT Serif", serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.home {
+  margin-left: 30px;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 25px;
+  border-color: grey;
+}
+.container {
+  margin: 30px;
+}
