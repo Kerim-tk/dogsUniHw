@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Mono+One&display=swap');
 *,
 *:before,
 *:after {
@@ -9,9 +10,11 @@ body {
   margin: 0 auto;
   color: #21243d;
   font-family: "PT Serif", serif;
+  background-color: #222327;
 }
 a {
   text-decoration: none;
+  color: #ffffff;
 }
 .breeds {
   display: grid;
@@ -20,8 +23,8 @@ a {
 .breed {
   width: 348px;
   height: 385px;
-  background-color: aliceblue;
   margin: 30px;
+  background-color: #292a2e;
 }
 .dog-breeds {
   margin: 30px 60px 30px 60px;
@@ -41,6 +44,7 @@ article {
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
+  background-color: aliceblue;
 }
 p {
   padding: 10px;
@@ -49,4 +53,14 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.newFont{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 10px 10px 30px #2400ff, -10px -10px 30px #7e2bd9;
+    -webkit-text-stroke: 2px #fc78ff;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
 }

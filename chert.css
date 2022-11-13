@@ -13,12 +13,13 @@ body {
   position: relative;
   height: 100%;
   margin: 0 auto;
-  color: #21243d;
+  color: #ffffff;
   font-family: "PT Serif", serif;
+  background-color: #222327;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #6961e5;
 }
 .home {
   margin-left: 30px;
@@ -36,4 +37,8 @@ table {
 }
 .paragraph__column {
   margin: 30px;
+}
+h2{
+  color: #fff;
+  text-decoration: underline;
 }
