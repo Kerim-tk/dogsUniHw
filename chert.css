@@ -40,5 +40,7 @@ table {
 }
 h2{
   color: #fff;
+}
+.homeButton{
   text-decoration: underline;
 }
